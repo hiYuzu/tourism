@@ -1552,3 +1552,61 @@ section.lazy-placeholder:after {
 .cid-map .baidu-map[data-state="loading"] [data-state-details] {
     display: none;
 }
+.cid-guide-1 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background: linear-gradient(45deg, #0f7699, #ff7f9f);
+}
+@media (min-width: 992px) {
+    .cid-guide-1 .mbr-figure {
+        padding-left: 4rem;
+    }
+}
+@media (max-width: 991px) {
+    .cid-guide-1 .mbr-figure {
+        padding-top: 3rem;
+    }
+}
+.cid-guide-2 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #ffffff;
+}
+.cid-guide-2 .mbr-section-subtitle {
+    color: #767676;
+    text-align: center;
+    font-weight: 300;
+}
+.cid-guide-2 .step {
+    width: 64px;
+    height: 64px;
+    font-size: 32px;
+    border-radius: 50%;
+    border: 2px solid #efefef;
+}
+@media (max-width: 767px) {
+    .cid-guide-2 .step {
+        width: 48px;
+        height: 48px;
+        font-size: 24px;
+    }
+}
+.cid-guide-2 .separline {
+    position: relative;
+}
+.cid-guide-2 .separline:after {
+    top: 68px;
+    left: 30px;
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: calc(100% - (32px + 4px) * 2);
+    background-color: #efefef;
+}
+@media (max-width: 767px) {
+    .cid-guide-2 .separline:after {
+        top: 52px;
+        left: 22px;
+        height: calc(100% - 56px);
+    }
+}
