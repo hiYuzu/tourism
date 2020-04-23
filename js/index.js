@@ -30,7 +30,7 @@ function leaveComments() {
 function loadJScript() {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src = "//api.map.baidu.com/api?v=2.0&ak=BsDDtbVdLh2bqHGjWk5d8TtKLG4DbKwr&callback=init";
+    script.src = "http://api.map.baidu.com/api?v=2.0&ak=BsDDtbVdLh2bqHGjWk5d8TtKLG4DbKwr&callback=init";
     document.body.appendChild(script);
 }
 function init() {
