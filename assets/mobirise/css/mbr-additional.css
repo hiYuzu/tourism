@@ -54,11 +54,6 @@ body {
     font-size: 1.6rem;
 }
 
-/* ---- Fluid typography for mobile devices ---- */
-/* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
-/* 100vw - current viewport width */
-/* (48 - 20)  48 == 48rem == 768px, 20 == 20rem == 320px(minimal supported viewport) */
-/* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
     .display-1 {
         font-size: 3.4rem;
@@ -1749,32 +1744,32 @@ section.lazy-placeholder:after {
         height: auto;
     }
 }
-.cid-rWY4TnbIfW {
+.cid-card {
     padding-top: 90px;
     padding-bottom: 90px;
     background-color: #ffffff;
 }
-.cid-rWY4TnbIfW .mbr-slider .carousel-control {
+.cid-card .mbr-slider .carousel-control {
     background: #1b1b1b;
 }
-.cid-rWY4TnbIfW .mbr-slider .carousel-control-prev {
+.cid-card .mbr-slider .carousel-control-prev {
     left: 0;
     margin-left: 2.5rem;
 }
-.cid-rWY4TnbIfW .mbr-slider .carousel-control-next {
+.cid-card .mbr-slider .carousel-control-next {
     right: 0;
     margin-right: 2.5rem;
 }
-.cid-rWY4TnbIfW .mbr-slider .modal-body .close {
+.cid-card .mbr-slider .modal-body .close {
     background: #1b1b1b;
 }
-.cid-rWY4TnbIfW .row > .row {
+.cid-card .row > .row {
     display: block;
 }
-.cid-rWY4TnbIfW .mbr-gallery-item {
+.cid-card .mbr-gallery-item {
     width: 100%;
 }
-.cid-rWY4TnbIfW .mbr-gallery-item > div::before {
+.cid-card .mbr-gallery-item > div::before {
     content: '';
     position: absolute;
     left: 0;
@@ -1787,16 +1782,16 @@ section.lazy-placeholder:after {
     transition: 0.2s opacity ease-in-out;
     background: linear-gradient(to left, #554346, #45505b) !important;
 }
-.cid-rWY4TnbIfW .mbr-gallery-item > div {
+.cid-card .mbr-gallery-item > div {
     position: relative;
 }
-.cid-rWY4TnbIfW .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+.cid-card .mbr-gallery-item > div:hover .mbr-gallery-title::before {
     background: transparent !important;
 }
-.cid-rWY4TnbIfW .mbr-gallery-item > div:hover:before {
+.cid-card .mbr-gallery-item > div:hover:before {
     opacity: 0.7 !important;
 }
-.cid-rWY4TnbIfW .mbr-gallery-title {
+.cid-card .mbr-gallery-title {
     font-size: .9em;
     position: absolute;
     display: block;
@@ -1806,7 +1801,7 @@ section.lazy-placeholder:after {
     color: #fff;
     z-index: 2;
 }
-.cid-rWY4TnbIfW .mbr-gallery-title:before {
+.cid-card .mbr-gallery-title:before {
     content: " ";
     width: 100%;
     height: 100%;
