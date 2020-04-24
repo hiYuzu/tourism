@@ -37,15 +37,10 @@ function init() {
     // 创建Map实例
     map = new BMap.Map("map");
     // 创建点坐标
-    var point = new BMap.Point(116.404, 39.915);
+    var point = new BMap.Point(104.071, 30.576);
     map.centerAndZoom(point,15);
     //启用滚轮放大缩小
     map.enableScrollWheelZoom();
-    // 添加定位控件
-    var geolocation = new BMap.Geolocation();
-    geolocation.getCurrentPosition(function (position) {
-        map.centerAndZoom(position.point, 15);
-    });
     local = new BMap.LocalSearch(map, {
         renderOptions:{map: map}
     });
